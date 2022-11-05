@@ -1,0 +1,74 @@
+body{
+  background-image: url('../images/our-work-05.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: black;
+  
+}
+.element{
+  background-color: grey;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+.element:hover{
+  background-color: grey;
+}
+.element a{
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h1{
+    align-items: center;
+    font-style: italic;
+}
+#home p{
+    text-size-adjust: 50px;
+}
+img{
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding-top: 10px;
+  width: 350px;
+  height: 250px;
+}
+input:valid{
+   background-color: bisque;
+}
+input:invalid{
+  background-color: rgb(71, 7, 7);
+}
+input:focus{
+    background-color: rgb(206, 202, 202);  
+}
+button:hover{
+    background-color: beige;
+    
+}
+button{
+    position: relative;
+    border-radius: 2px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+    cursor: pointer;
+}
+section{
+    overflow: auto;
+    width: 500px;
+    height: 200px;
+    padding-left: 5px;
+    background-color:grey;
+}
+#image1{
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+}
